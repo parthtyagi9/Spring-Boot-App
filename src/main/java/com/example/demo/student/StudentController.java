@@ -10,7 +10,7 @@ import java.time.Month;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "api/v1/students")
+@RequestMapping(path = "api/v1/students") //Api layer updated
 public class StudentController {
 
     private final StudentService studentService;
